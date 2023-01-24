@@ -35,7 +35,7 @@ export class Plugin extends PluginCore {
             id: "OKAprojectsettings",
             title: "OKA projectsettings page",
             type:"OKAps",
-            enabled: true,
+            enabled: false,
             defaultSettings: {
                 myProjectSetting:  "default value for setting defined in Interfaces.ts",
             },
@@ -48,7 +48,7 @@ export class Plugin extends PluginCore {
         */
         menuToolItem: {
             enabled: true,
-            title:"ui_plugin_oops_kibana_shortcut-menuitem",
+            title:"Open kibana",
         },
         /*  Add a custom field to enter some data in the UI - set enabled to false if not needed.
             The field itself is implemented in the _Control.ts 
@@ -79,7 +79,7 @@ export class Plugin extends PluginCore {
             
             id:"OKA",
             title: "OKA dashboard page",
-            enabled: true,
+            enabled: false,
             icon: "fal fa-cog",
             parent: "DASHBOARDS",
             usefilter: true,
