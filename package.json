@@ -1,9 +1,9 @@
 {
-  "name": "matrix-ui-plugin-boilerplate",
+  "name": "ui_plugin_oops_kibana_shortcut",
   "version": "1.0.0",
-  "description": "Awesome matrix-ui-plugin-boilerplate created by francoischasseur",
+  "description": "Awesome ui_plugin_oops_kibana_shortcut created by francoischasseur",
   "repository": {
-    "url": "https://github.com/MatrixRequirements/matrix-ui-plugin-boilerplate"
+    "url": "https://github.com/MatrixRequirements/ui_plugin_oops_kibana_shortcut"
   },
   "targets": {
     "default": {
@@ -18,8 +18,8 @@
     "check": "tsc --noEmit",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src --ext .ts",
-    "parcel": "parcel src/BPP/Main.ts --dist-dir /home/clouds/clouds/custom/js --no-hmr",
-    "parcel-dist": "parcel build src/BPP/Main.ts"
+    "parcel": "parcel src/OKA-ea0c4a25-c50f-4461-a5dc-ea692f11ea27/Main.ts --dist-dir /home/clouds/clouds/custom/js --no-hmr",
+    "parcel-dist": "parcel build src/OKA-ea0c4a25-c50f-4461-a5dc-ea692f11ea27/Main.ts"
   },
   "author": "",
   "license": "ISC",
